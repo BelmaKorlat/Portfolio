@@ -21,7 +21,7 @@ header {
     top: 0;
 }
 
-.container {
+.container3 {
     background-color: black;
     display: flex;
     justify-content: space-between;
@@ -70,6 +70,7 @@ figcaption:hover {
     padding-right: 15px;
     color: white;
 }
+
 
 .lijevo {
     display: flex;
@@ -230,10 +231,24 @@ figcaption:hover {
 }
 
 #projects {
-    margin-left: auto;
-    margin-right: auto;
+    text-align: center;
     margin-top: 50px;
+    margin-bottom: 50px;
     padding: 0;
+}
+
+#projects h2 {
+    margin: 0;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-align: center;
+    text-shadow: 2px 2px 8px #bc6ff1;
+    margin-bottom: 15px;
+}
+
+#projects p {
+    margin-top: 15px;
 }
 
 footer {
@@ -263,10 +278,6 @@ footer li a {
     padding-right: 15px;
 }
 
-svg {
-    border-radius: 50%;
-}
-
 footer svg:hover {
     padding: 2px;
     fill: #bc6ff1;
@@ -274,7 +285,7 @@ footer svg:hover {
 }
 
 @media screen and (max-width: 800px) {
-    .container {
+    .container3 {
         flex-direction: column;
         justify-content: center;
         align-items: center;
