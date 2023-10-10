@@ -8,7 +8,6 @@ html {
     scroll-behavior: smooth;
 }
 
-
 body {
     background: black;
     color: white;
@@ -19,6 +18,10 @@ body {
 .circle1 {
     fill: white;
 }
+
+/* .circle2 {
+    fill: white;
+} */
 
 header {
     width: 100%;
@@ -68,14 +71,12 @@ figcaption:hover {
     padding-right: 15px;
     color: white;
     transition: 0.3s;
-    /*transition pomjeren vamo da se animacija prikazuje i nakon sklanjanja miša sa tipke*/
 }
 
 .desno1 a:hover {
     cursor: pointer;
     box-shadow: 0 0 10px #bc6ff1;
     border-radius: 20px;
-    /*transition:0.3s;*/
 }
 
 
@@ -321,7 +322,6 @@ footer ul {
     padding-top: 2%;
     padding-bottom: 1%;
     padding-left: 0;
-    /*dodao ovo, kad ovo ne primjenim, ikone u footeru odu u desno jer ima neki padding sa live strane*/
 }
 
 footer li {
@@ -337,16 +337,10 @@ footer li a {
 
 footer svg {
     transition: 0.7s;
-    /*transition premješten vamo da se animacija prikazuje nakon pomicanja miša sa ikonice, skraćeno 
-    sa 1s na 0.7s*/
 }
 
 footer svg:hover {
     scale: 0.7;
-    /*promijeno na scale sa paddinga jer sa paddingom se ne smanjuje jednako sa svih strana odjednom,
-    vidi se da se prvo malo smanji sa desne pa sa lijeve npr*/
-    /*transition: 1s;*/
-    /*padding:2px;*/
     fill: #bc6ff1;
 }
 
@@ -586,17 +580,11 @@ footer svg:hover {
 
     .desno1 {
         width: 100%;
-        /*bilo je u verziji za komp postavljeno na 380px i kada smanjiš responsive na veličinu manju od 380 stvara prazan prostor 
-        desno na svim elementima da bi on mogao stat*/
     }
 
     .desno1 a {
         font-size: 12pt;
-        /*također ako je prevelik izlazi na obe strane van granica ekrana i stvara prazan prostor*/
     }
-
-
-    /*provjeri komentare u css za komp za desno1 a, desno1 a:hover, footer ul  footer svg i footer svg:hover :)*/
 
     .naslov1 {
         width: 100%;
