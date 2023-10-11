@@ -573,6 +573,9 @@ footer svg:hover {
 }
 
 @media screen and (max-width:400px) {
+    .home {
+        height: 100vh;
+    }
 
     .desno1 {
         width: 100%;
