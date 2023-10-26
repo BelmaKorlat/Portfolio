@@ -11,5 +11,6 @@ The portfolio features some of my notable projects, highlighting my technical ex
 For any inquiries, collaborations, or questions, please feel free to reach out to me via the following icons located at the end of the page:
 - Email: belma.korlat21@gmail.com
 - WhatsApp: 062906288
+  
 I am always open to new opportunities and collaborations, and I look forward to connecting with you!
 
