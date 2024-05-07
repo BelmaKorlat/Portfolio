@@ -11,14 +11,10 @@ document.onmousemove = function () {
 }
 
 function resetPage() {
-    // Add your code here to reset the page to its initial state
-    // For example, you can clear form inputs, reset variables, etc.
-    // Here, we are just reloading the page for demonstration purposes.
     location.reload();
 }
 
-// Get a reference to the reset button
+
 var reset = document.getElementsByClassName("circle1");
 
-// Add an onclick event handler to the button
 reset.onclick = resetPage;
